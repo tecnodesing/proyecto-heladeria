@@ -1,0 +1,84 @@
+/* ********** VARIABLES ********* */
+
+:root{
+    --color-primario:#13a8fe;
+    --color-primario-oscuro:#0371b0;
+    --color-secundario: #ff00ff;
+    --color-terciario: #ffa300;
+    --color-adicional: #cf0060;
+    --color-fondo: #000045;
+    --color-blanco: #fff;
+    --color-negro: #000;
+    --color-gris100: #f4f4f4;
+    --color-gris200: #efefef;
+    --color-gris300: #767676;
+    --color-gris400: #111111;
+    --color-gris600: #2f2e2e;
+    --color-verde-neon: #2ef8a0;
+    --color-rojo-neon: #f82e86;
+    --color-texto: #1d1d1f            
+}
+
+@font-face {
+    font-family: 'MuseoModerno';
+    src: url(fonts/MuseoModerno/MuseoModerno-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'dancing';
+    src: url(fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'cube';
+    src: url(fonts/cube/Cube.ttf);
+}
+@font-face {
+    font-family: 'neon';
+    src: url(fonts/neon/Neon.ttf);
+}
+@font-face {
+    font-family: 'teko';
+    src: url(fonts/Teko/Teko-Regular.ttf);
+}
+
+/*! ****** estilos scroll bar ****** */
+
+body::-webkit-scrollbar{
+    width: 10px;
+    background-color: var(--color-gris100);
+}
+
+body::-webkit-scrollbar-thumb{
+    background: var(--color-gris300);
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 5px var(--color-gris400);
+
+}
+
+  /* Firefox */
+body{
+    scrollbar-width: 40px;
+    scrollbar-color: var(--color-gris300) var(--color-gris400);
+}
+
+
+/*! ********** GENERALES ********* */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--color-gris600);
+}
+
+a{
+    text-decoration: none;
+}
+
+h1, h2{
+    font-family: 'teko';
+}
+
+h3{
+    font-family: 'dancing';
+}
