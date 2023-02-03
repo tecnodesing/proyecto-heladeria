@@ -121,6 +121,40 @@ h3{
     line-height: 0.1;
 }
 
+.background{
+    background-size: cover !important;
+    background-position: right !important;
+}
+
+
+/********** Lateral ***********/
+
+.text-content.lateral{
+    padding: 0 50px;
+}
+
+.text-content.lateral h1{
+    font-size: 55px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 1;
+    text-align: center;
+}
+
+.text-content.lateral h3{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.text-content.lateral p{
+    font-size: 20px;
+    margin: 20px 0;
+    text-align: center;
+    letter-spacing:0.5px ;
+}
+
+
 /*? ********* Botones *********** */
 
 .btn{
@@ -280,35 +314,54 @@ header .text-content h3{
     background: url(img/image2.webp);
 }
 
-.background{
-    background-size: cover !important;
-    background-position: right !important;
+/********** Especial **************/
+
+.especial{
+    background: #b5e8d5;
 }
 
-
-/********** Lateral ***********/
-
-.text-content.lateral{
-    padding: 0 50px;
+.especial::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(img/image3.webp);
+    background-attachment: fixed;
+    background-position: center;
 }
 
-.text-content.lateral h1{
-    font-size: 55px;
-    font-weight: 400;
-    letter-spacing: 2px;
-    line-height: 1;
-    text-align: center;
+/******* Lugar *********/
+
+.lugar .background{
+    background: url(img/image4.webp);
 }
 
-.text-content.lateral h3{
-    font-size: 40px;
-    font-weight: 600;
-    text-align: center;
+/******** Eventos ********/
+
+.eventos{
+    background: #ffbfb3;
 }
 
-.text-content.lateral p{
-    font-size: 20px;
-    margin: 20px 0;
-    text-align: center;
-    letter-spacing:0.5px ;
+.eventos::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(img/image5.webp);
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.eventos .btn{
+    width: 200px;
+}
+
+/******* postres *********/
+
+.postres .background{
+    background: url(img/image6.webp);
 }
