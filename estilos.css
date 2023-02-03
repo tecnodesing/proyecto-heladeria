@@ -365,3 +365,19 @@ header .text-content h3{
 .postres .background{
     background: url(img/image6.webp);
 }
+
+/********* helados **********/
+
+.helado{
+    height: 105vh;
+    background: url(img/image7.webp), #b5e8d5;
+    background-attachment: fixed;
+    display: flex;
+    background-size: cover;
+  
+}
+
+.helado img{
+    width: 100%;
+    object-fit: cover;
+}
